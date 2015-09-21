@@ -7,7 +7,7 @@
 FILE *infile; 
 
 /*Dictionary struct holds shared objects.*/
-sharedobject
+
 typedef struct dict {
 	char *word;
 	int count;
