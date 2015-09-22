@@ -3,8 +3,8 @@
 #################
 
 # files
-EXECUTABLE  = words
-SOURCES  = words.c 
+EXECUTABLE  = pwords
+SOURCES  = pwords.c 
 
 OBJECTS  = $(SOURCES:.c=.o)
 
