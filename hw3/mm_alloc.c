@@ -123,7 +123,7 @@ s_block_ptr get_block (void *p){
     
     char *tmp;
     tmp       = p;
-    return (p = tmp -= BLOCK_SIZE);
+    return (p -= BLOCK_SIZE);
             
 }
 
